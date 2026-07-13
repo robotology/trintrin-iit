@@ -18,7 +18,7 @@ include(CTest)
 
 # Find packages needed for this main CMakeLists.txt.
 # Subfolders will find the dependencies they need.
-find_package(YARP 3.2 REQUIRED)
+find_package(YARP 4.0.0 REQUIRED)
 find_package(YCM REQUIRED)
 
 # To build shared libraries in Windows, we set CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS to TRUE
